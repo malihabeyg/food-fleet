@@ -1,0 +1,2 @@
+EXEC GetMenuItemsByRestaurant(@id)
+InsertUserIntoRoleTable(@id)

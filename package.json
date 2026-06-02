@@ -1,0 +1,18 @@
+{
+  "name": "foodfleet-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FoodFleet full stack food delivery application with React frontend, Express backend, Socket.IO and Microsoft SQL Server database.",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix frontend\"",
+    "start:backend": "npm start --prefix backend",
+    "start:frontend": "npm start --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "recharts": "^3.8.1"
+  }
+}
